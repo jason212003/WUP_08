@@ -27,6 +27,8 @@ abline(simp)
 summary.lm(simp)
 ```
 
+The bears neck is 20 inches around which helps predicts about 57 in length.Looking at the accompanying plot, it show that the residual standard error is 5.376, and the R squared is .7524.
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
