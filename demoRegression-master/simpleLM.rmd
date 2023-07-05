@@ -45,6 +45,15 @@ The residual standard error is 4.939 and its lower than the previous model which
 
 
 
+```{r}
+MYHEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(MYHEADWTH)
+summary.lm(MYHEADWTH)
+```
+
+
+As the third model, the residual standard error is 7.32, which is making it worse. In addition, the R-square is now 0.5409 which is also a decline from the previous model. comparing all three models, this one is at the bottom of the list.
 
 
 
