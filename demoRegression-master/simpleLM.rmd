@@ -77,4 +77,14 @@ summary.lm(MYWEIGHT)
 
 This model is a comparison to the bears weights. The residual sandard error is 5.2432 and the adjusted R-squared 0.7423
 
+```{r}
+HEADLEN <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(HEADLEN)
+summary.lm(HEADLEN)
+```
+
+
+
+
 
