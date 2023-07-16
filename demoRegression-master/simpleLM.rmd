@@ -84,7 +84,7 @@ abline(HEADLEN)
 summary.lm(HEADLEN)
 ```
 
-
+This model is a comparison to bears weight. The residual standards error is 4.235 and the adijusted R-squared 0.8434
 
 
 
